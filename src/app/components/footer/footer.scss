@@ -1,0 +1,34 @@
+footer {
+    background-color: #333; 
+    color: #fff;
+    padding: 20px 0; 
+    width: 100%;
+    text-align: center;
+    margin-top: auto; 
+    
+}
+
+.footer-conteudo {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+footer a {
+    color: #aaa;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.direitos-autorais {
+    width: 100%;
+    padding-top: 15px;
+    border-top: 1px solid #555;
+    margin-top: 15px;
+}

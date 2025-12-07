@@ -1,0 +1,33 @@
+@if (produto) {
+
+<div class="card">
+<div class="image-container">
+<img [src]=" produto.imageUrl" class="main-img" />
+<!-- <img [src]=" produto.thumbnail" class="thumbnail" /> -->
+</div>
+
+
+<div class="content">
+<div class="tag">BLACK FRIDAY</div>
+<h3 class="title">{{ produto.title }}</h3>
+<p class="brand">{{ produto.brand }}</p>
+
+
+<div class="rating">
+⭐ {{ produto.rating }} | +{{ produto.sold }} vendidos
+</div>
+
+
+<div class="prices">
+<span class="old">R$ {{ produto.oldPrice }}</span>
+<span class="new">R$ {{ produto.newPrice }}</span>
+<span class="discount">{{ produto.discount }}% OFF</span>
+</div>
+
+
+<p class="installments">12x R$ {{ (produto.newPrice / 12) }}</p>
+<p class="free">Frete grátis</p>
+</div>
+</div>
+
+}

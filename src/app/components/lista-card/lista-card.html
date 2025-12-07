@@ -1,0 +1,8 @@
+<div class="conteiner">
+    @if(listacard){
+    @for (produto of listacard; track $index) {
+    <app-produto-card [produto]="produto"></app-produto-card>
+    }
+    }
+
+</div>
