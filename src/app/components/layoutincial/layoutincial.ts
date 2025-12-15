@@ -10,5 +10,7 @@ import {  MatIconModule } from "@angular/material/icon";
   styleUrl: './layoutincial.scss',
 })
 export class Layoutincial {
+produto: any;
+
 
 }

@@ -24,8 +24,11 @@
 .imagem-banner {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Simula o 'background-size: cover' do CSS */
+    object-fit: cover;
     display: block;
     margin: 0;
 }
-
+.h2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
