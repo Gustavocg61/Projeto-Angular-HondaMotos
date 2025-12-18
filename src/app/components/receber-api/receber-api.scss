@@ -1,0 +1,64 @@
+.card-painel {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  font-family: sans-serif;
+}
+
+h2 {
+  color: #333;
+  border-bottom: 2px solid #ff4d4d; /* Vermelho esportivo */
+  padding-bottom: 10px;
+}
+
+.tabela-motos {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.tabela-motos th {
+  background: #f8f9fa;
+  padding: 12px;
+  text-align: left;
+  color: #666;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.tabela-motos td {
+  padding: 15px 12px;
+  border-bottom: 1px solid #eee;
+  color: #444;
+}
+
+.nome-cliente {
+  font-weight: bold;
+  color: #1a1a1a;
+}
+
+.badge-moto {
+  background: #ffe5e5;
+  color: #d63031;
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.btn-voltar {
+  background: #1a1a1a;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn-voltar:hover {
+  background: #ff4d4d;
+}

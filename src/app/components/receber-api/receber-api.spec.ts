@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { Header } from './header';
+import { ReceberApi } from './receber-api';
 
-describe('Header', () => {
-  let component: Header;
-  let fixture: ComponentFixture<Header>;
+describe('ReceberApi', () => {
+  let component: ReceberApi;
+  let fixture: ComponentFixture<ReceberApi>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [Header]
+      imports: [ReceberApi]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(Header);
+    fixture = TestBed.createComponent(ReceberApi);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

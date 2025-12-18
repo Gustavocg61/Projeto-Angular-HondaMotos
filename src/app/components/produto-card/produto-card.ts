@@ -11,6 +11,9 @@ import { ProdutoModel } from '../produto-model';
 })
 export class ProdutoCard {
   @Input() produto! : ProdutoModel;
+  imageUrl: any;
+  titulo: any;
+  preco: any;
 
   constructor(){
     console.log(this.produto)

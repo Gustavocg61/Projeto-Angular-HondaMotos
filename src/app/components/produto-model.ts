@@ -1,14 +1,5 @@
-export interface ProdutoModel{
-  id: number;
-  title: string;
-  installments: string;
+export interface ProdutoModel {
   imageUrl: string;
-  thumbnail: string;
-  isNew: boolean;
-  brand: string;
-  rating: number;
-  sold: string;
-  oldPrice: number;
-  newPrice: number;
-  discount: number;
+  titulo: string;
+  preco: string;
 }

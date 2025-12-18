@@ -3,20 +3,17 @@
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   gap: 15px;
   padding: 20px 0;
+  display: flex;
+
 }
 
 .conteiner{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 15px;
-  flex-wrap: wrap;  
-
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 10px; 
+   max-width: 1000px; 
+  margin: 0 auto;
+  padding: 20px;
 }
 
 
-.support-list a:hover {
-    background-color: #ffe600; /* Cor amarela do Mercado Livre */
-    color: #333; /* Mantém a cor do texto */
-    border-color: #ffe600;
-}
