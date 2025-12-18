@@ -7,11 +7,10 @@ import { RouterModule, RouterOutlet } from '@angular/router';
 import { Footer } from "./components/footer/footer";
 import { Layoutincial } from "./components/layoutincial/layoutincial";
 
-
 @Component({
   selector: 'app-root',
   imports: [RouterOutlet, RouterModule, MatButtonModule, MatIconModule, MatFormFieldModule,
-    MatInputModule, Footer, Layoutincial],
+    MatInputModule, Footer, Layoutincial ],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })

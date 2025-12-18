@@ -5,6 +5,8 @@ import { SobreNos } from './components/sobre-nos/sobre-nos';
 import { Suporte } from './components/suporte/suporte';
 import { Contato } from './components/contato/contato';
 import { Footer } from './components/footer/footer';
+import { Banner } from './components/banner/banner';
+import { ReceberApiComponent } from './components/receber-api/receber-api';
 
 export const routes: Routes = [
     {path: '', component: ListaCard},
@@ -13,5 +15,7 @@ export const routes: Routes = [
     {path: "sobre-nos", component: SobreNos},
     {path: "suporte", component: Suporte},
     {path: "contato", component: Contato},
-    {path: "footer", component: Footer}
+    {path: "banner", component: Banner},
+    {path: "footer", component: Footer},
+    {path: "receber-api", component: ReceberApiComponent}
 ];
