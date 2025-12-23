@@ -15,5 +15,26 @@
   margin: 0 auto;
   padding: 20px;
 }
+/* Container que segura tudo */
+.main-container {
+  display: flex;
+  min-height: 100vh; /* Ocupa a altura toda da tela */
+}
 
+/* Estilo da Sidebar */
+.sidebar {
+  width: 250px;          /* Largura do painel */
+  padding: 20px;
+  border-right: 1px solid #ddd; /* Linha vertical que aparece na sua imagem */
+  background-color: #050231;
+  width: 200px;
+  padding: 20px;
+  border-right: 1px solid #e0e0e0;
+  color: white;
+}
+
+.sidebar h4 {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
 
