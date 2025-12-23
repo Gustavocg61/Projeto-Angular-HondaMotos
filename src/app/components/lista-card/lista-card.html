@@ -1,3 +1,15 @@
+<div class="main-container">
+  <aside class="sidebar">
+<h4>Navegação</h4>
+<ul>
+
+    <button matButton="elevated"><a [routerLink]="['/suporte']">Suporte</a></button>
+    <br><br>
+    <button matButton="elevated"><a [routerLink]="['/contato']">contato</a></button>
+    <br><br>
+    <button matButton="elevated"><a [routerLink]="['/receber-api']">Consulte Api</a></button>
+</ul>
+  </aside>
 <div class="conteiner">
     @if(listacard){
     @for (produto of listacard; track $index) {

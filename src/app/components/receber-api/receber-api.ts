@@ -13,7 +13,9 @@ export class ReceberApiComponent implements OnInit {
 
   clientes: any[] = [];
 
-  constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient) {
+    
+  }
 
   ngOnInit(): void {
 
